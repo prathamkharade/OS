@@ -1,0 +1,6 @@
+Enter Parent msg to Child: Hi
+Parent writes msg to pipe1: Hi
+Child reading msg from pipe1: Hi
+Enter Child msg to Parent: Hello
+Child writing to pipe2: Hello
+Parent reading msg from pipe2: Hello

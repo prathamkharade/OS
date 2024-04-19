@@ -1,0 +1,38 @@
+FCFS
+
+Enter size of disk: 200
+Enter number of requests: 8
+Enter the requests: 98 183 37 122 14 124 65 67
+Enter the head position: 53
+53->98->183->37->122->14->124->65->67
+Total head movements: 640
+
+SSTF
+
+Enter size of disk: 200
+Enter number of requests: 7  
+Enter the requests: 82 170 43 140 24 16 190
+Enter the head position: 50
+Seek sequence is: 50	43	24	16	82	140	170	190	
+Total number of seek operations: 208
+
+SCAN
+
+Enter the number of requests: 8
+Enter the disk size: 200
+Enter the requests: 82 87 49 36 112 174 196 1                
+Enter the initial head position: 50
+Enter the direction (left or right): right
+Total number of seek operations: 347
+Seek Sequence is: 82 -> 87 -> 112 -> 174 -> 196 -> 199 -> 49 -> 36 -> 1
+
+CSCAN
+
+Enter the number of requests: 7 
+Enter the disk size: 200
+Enter the requests: 82 87 49 36 112 174 196
+Enter the initial head position: 50
+Initial position of head: 50
+Total number of seek operations: 397
+Seek Sequence is: 
+82 -> 87 -> 112 -> 174 -> 196 -> 199 -> 0 -> 36 -> 49 

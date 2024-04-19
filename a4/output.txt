@@ -1,0 +1,47 @@
+ubuntu@ubuntu2304:~/Desktop/OS/assign4$ ./a.out
+------------------------------------------
+With sync
+R-R case
+Reader 2 reading shared resource
+Reader 1 reading shared resource
+Reader 2 completed with reading, CS is free.
+Reader 1 completed with reading, CS is free.
+R-W case
+Writer 1 writing shared resource
+Reader 1 is waiting
+Writer 1 completed with writing, CS is free.
+Reader 1 reading shared resource
+Reader 1 completed with reading, CS is free.
+W-R case
+Reader 1 reading shared resource
+Writer 1 is not allowed
+Reader 1 completed with reading, CS is free.
+Writer 1 writing shared resource
+Writer 1 completed with writing, CS is free.
+W-W case
+Writer 2 writing shared resource
+Writer 1 is not allowed
+Writer 2 completed with writing, CS is free.
+Writer 1 writing shared resource
+Writer 1 completed with writing, CS is free.
+Without sync
+R-R case
+Reader 2 reading shared resource
+Reader 1 reading shared resource
+Reader 2 completed with reading, CS is free.
+Reader 1 completed with reading, CS is free.
+R-W case
+Writer 1 writing shared resource
+Reader 1 reading shared resource
+Writer 1 completed with writing, CS is free.
+Reader 1 completed with reading, CS is free.
+W-R case
+Reader 1 reading shared resource
+Writer 1 writing shared resource
+Reader 1 completed with reading, CS is free.
+Writer 1 completed with writing, CS is free.
+W-W case
+Writer 2 writing shared resource
+Writer 1 writing shared resource
+Writer 2 completed with writing, CS is free.
+Writer 1 completed with writing, CS is free.

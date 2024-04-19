@@ -1,0 +1,54 @@
+First fit
+
+ubuntu@ubuntu2304:~/Desktop/OS/assign6$ ./a.out
+Enter number of blocks: 5
+Enter number of processes: 4
+Enter sizes of blocks: 102 502 202 295 590
+Enter sizes of processes: 214 419 114 428
+
+Process No.	Process Size	Block no.
+1		214		2
+2		419		5
+3		114		2
+4		428		Not allocated
+
+Next fit
+
+ubuntu@ubuntu2304:~/Desktop/OS/assign6$ ./a.out
+Enter number of blocks: 3
+Enter number of processes: 3
+Enter sizes of blocks: 5 10 20
+Enter sizes of processes: 10 20 30
+
+Process No.	Process Size	Block no.
+1		10		2
+2		20		3
+3		30		Not allocated
+
+Best fit
+
+ubuntu@ubuntu2304:~/Desktop/OS/assign6$ ./a.out
+Enter number of blocks: 4
+Enter number of processes: 4
+Enter sizes of blocks: 7 14 19 2
+Enter sizes of processes: 4 8 9 2
+
+Process No.	Process Size	Block no.
+1		4		1
+2		8		2
+3		9		3
+4		2		4
+
+Worst fit
+
+ubuntu@ubuntu2304:~/Desktop/OS/assign6$ ./a.out
+Enter number of blocks: 5
+Enter number of processes: 4
+Enter sizes of blocks: 40 40 50 50 70
+Enter sizes of processes: 10 20 30 40
+
+Process No.	Process Size	Block no.
+1		10		5
+2		20		5
+3		30		3
+4		40		4
